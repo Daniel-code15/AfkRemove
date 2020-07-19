@@ -1,0 +1,13 @@
+name: AfkHidden
+version: 1.0
+author: Daniel
+main: me.daniel.removefromtab.Main
+commands:
+depend: [Essentials]
+permissions:
+    afkremove.show:
+        default: op
+        description: Mostra os Jogadores AFK.
+    afkremove.staff:
+        default: op
+        description: Bloqueia membros da staff do afk
